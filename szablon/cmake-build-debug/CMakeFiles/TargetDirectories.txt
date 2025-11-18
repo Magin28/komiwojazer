@@ -1,0 +1,3 @@
+Z:/MO/szablon/cmake-build-debug/CMakeFiles/tsp.dir
+Z:/MO/szablon/cmake-build-debug/CMakeFiles/edit_cache.dir
+Z:/MO/szablon/cmake-build-debug/CMakeFiles/rebuild_cache.dir

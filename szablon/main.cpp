@@ -1,19 +1,19 @@
-#include "TSP.hpp"
+/*#include "TSP.hxx"
 
 #include <iostream>
 
 
 int main() {
     cost_matrix_t cm = {{INF, 10, 8,   19, 12},
-                      {10, INF, 20,  6,  3},
-                      {8,   20, INF, 4,  2},
-                      {19,  6,  4, INF,  7},
-                      {12,  3,  2,   7, INF}};
+                        {10, INF, 20,  6,  3},
+                        {8,   20, INF, 4,  2},
+                        {19,  6,  4, INF,  7},
+                        {12,  3,  2,   7, INF}};
 
-    /* Rozwiązania:
-     * 32 : 2 3 4 1 0
-     * 32 : 1 4 3 2 0
-     */
+    // Rozwiązania:
+    // 32 : 2 3 4 1 0
+    // 32 : 1 4 3 2 0
+
 
 //    cost_matrix_t cm {
 //            {INF, 12,   3,  45,   6},
@@ -23,9 +23,9 @@ int main() {
 //            { 3,  98,   3,   2, INF}
 //    };
 
-    /* Rozwiązanie:
-     * 30 : 4 3 2 0 1
-    */
+    // Rozwiązanie:
+    // 30 : 4 3 2 0 1
+
 
 //    cost_matrix_t cm {
 //            {INF,  3,  4,  2,  7},
@@ -35,10 +35,10 @@ int main() {
 //            {7,  3,  8,  6,  INF},
 //    };
 
-    /* Rozwiązania:
-     * 19 : 4 3 0 2 1
-     * 19 : 1 2 0 3 4
-    */
+    // Rozwiązania:
+    // 19 : 4 3 0 2 1
+    // 19 : 1 2 0 3 4
+
 
     tsp_solutions_t solutions = solve_tsp(cm);
 
@@ -53,3 +53,15 @@ int main() {
 
     return EXIT_SUCCESS;
 }
+
+*/
+// odkomentuj ponizszy kod aby uruchomic testy jednostkowe z tests.cpp
+// jesli chce uruchomic testy, musisz jednoczesnjiej zakomentowac kod powyzej
+#include "gtest/gtest.h"
+
+int main(int argc, char** argv) {
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
+
+
